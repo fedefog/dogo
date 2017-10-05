@@ -12,27 +12,31 @@
                 <span>Redes</span>
             </div><!--col-md-6-->
             <div class=" footer-links col-md-6">
-                <ul>
-                    <li>
-                        <span>Nosotros</span>
-                        <p>Locales</p>
-                        <p>Términos y condiciones</p>
-                        <p>Cambios y devoluciones</p>
-                        <p>Medios de pago</p>
-                    </li>
-                    <li>
-                        <span>Atención al cliente</span>
-                        <p>Preguntas frecuentes</p>
-                        <p>Contacto</p>
-                    </li>
-                    <li>
-                        <span>E-Shop</span>
-                        <p>Cambios y devoluciones </p>
-                        <p>Medios de pago</p>
-                        <p>Cómo comprar</p>
-                        <p>Seguimiento del envío</p>
-                    </li>
-                </ul>
+                <div class="col-md-4 footer-link-list">
+                    <p class="title">Nosotros</p>
+                    <ul>
+                        <li><a href="">Locales</a></li>
+                        <li><a href="">Términos y condiciones</a></li>
+                        <li><a href="">Cambios y devoluciones</a></li>
+                        <li><a href="">Medios de pago</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-link-list">
+                    <p class="title">Atención al cliente</p>
+                    <ul>
+                        <li><a href="">Preguntas frecuentes</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-link-list">
+                    <p class="title">E-Shop</p>
+                    <ul>
+                        <li><a href="">Cambios y devoluciones </a></li>
+                        <li><a href="">Medios de pago</a></li>
+                        <li><a href="">Cómo comprar</a></li>
+                        <li><a href="">Seguimiento del envío</a></li>
+                    </ul>
+                </div>
             </div><!--col-md-6-->
         </div><!--row-->
         <div class="row">

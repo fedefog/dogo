@@ -1,0 +1,46 @@
+.overlay-images {
+	position: relative;
+	margin: 75px 0;
+
+	.overlay-bg img {
+		max-width: 100%;
+	}
+
+	.overlay-content {
+		position: absolute;
+		width: 100%;
+		top: calc(50% - 130px);
+		text-align: center;
+
+		.title {
+			font-size: 69px;
+			font-weight: $medium;
+		}
+
+		.description {
+			font-size: 18px;
+			font-weight: $light;
+			line-height: 30px;
+			margin-bottom: 20px;
+		}
+
+		&.quote {
+			top: calc(50% - 200px);
+
+			.feature {
+				text-transform: uppercase;
+				font-size: 16px;
+				font-weight: $medium;
+			}
+
+			.author {
+				font-size: 18px;
+				font-weight: $medium;
+				margin: 25px 0;
+			}
+
+		}
+
+	}
+
+}

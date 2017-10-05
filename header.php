@@ -12,9 +12,9 @@
 
 <body class="page-<?php echo $page_name; ?>">
 <header>
-    <div class="main-header row">
+    <div class="main-header">
         <div class="col-md-12">
-            <div class="main-nav col-md-4">
+            <div class="header-nav main-nav col-md-4">
                 <nav>
                     <ul>
                         <li><a href="#">Mujer</a></li>
@@ -27,7 +27,7 @@
             <div class="dogood-logo col-md-4">
               <img src="img/logo.png" alt="dogood-logo">
             </div>
-            <div class="social-nav col-md-4">
+            <div class="header-nav social-nav col-md-4">
                 <ul>
                     <li><a href="#">Log in</a></li>
                     <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
@@ -37,9 +37,7 @@
                 </ul>
             </div>
         </div><!--col-->
-    </div><!--row-->
-    <div class="sub-header row">
-       <div class="col-md-12">
+        <div class="sub-header">
             <div class="navbar-dropdown">
                 <div class="dropdown-content">
                     <div class="col-md-2 navbar-sections">

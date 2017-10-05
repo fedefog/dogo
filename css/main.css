@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
 /* line 1, ../sass/base/_reset.scss */
 html, body {
@@ -11,23 +11,59 @@ html, body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.1;
+  color: #000000;
 }
 
-/* line 11, ../sass/base/_reset.scss */
+/* line 12, ../sass/base/_reset.scss */
 a {
   color: #000000;
 }
 
-/* line 14, ../sass/base/_reset.scss */
+/* line 15, ../sass/base/_reset.scss */
 ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 19, ../sass/base/_reset.scss */
+/* line 20, ../sass/base/_reset.scss */
 .right {
   float: right;
+}
+
+/* line 1, ../sass/modules/_buttons.scss */
+.btn-black {
+  background: #000000;
+  border: none;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/partials/_footer.scss */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 0 10px 0;
+  text-align: center;
+}
+/* line 7, ../sass/partials/_footer.scss */
+footer .footer-links {
+  text-align: left;
+  padding: 0;
+}
+/* line 11, ../sass/partials/_footer.scss */
+footer .footer-links li {
+  padding: 5px 0;
+}
+/* line 14, ../sass/partials/_footer.scss */
+footer .footer-links li a {
+  color: #ffffff;
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  font-weight: 300;
 }
 
 /* line 1, ../sass/partials/_header.scss */
@@ -38,43 +74,55 @@ header {
 header .main-header {
   height: 150px;
   padding: 20px 50px;
-}
-/* line 8, ../sass/partials/_header.scss */
-header .main-header li {
-  display: inline-block;
+  position: relative;
 }
 /* line 10, ../sass/partials/_header.scss */
-header .main-header li a {
+header .main-header .header-nav li {
+  display: inline-block;
+}
+/* line 12, ../sass/partials/_header.scss */
+header .main-header .header-nav li a {
   padding: 0 10px;
 }
-/* line 15, ../sass/partials/_header.scss */
+/* line 18, ../sass/partials/_header.scss */
 header .main-header .main-nav {
   padding-top: 50px;
 }
-/* line 19, ../sass/partials/_header.scss */
+/* line 22, ../sass/partials/_header.scss */
 header .main-header .dogood-logo {
   text-align: center;
 }
-/* line 23, ../sass/partials/_header.scss */
+/* line 25, ../sass/partials/_header.scss */
+header .main-header .dogood-logo img {
+  max-width: 100%;
+}
+/* line 30, ../sass/partials/_header.scss */
 header .main-header .social-nav {
   padding-top: 50px;
 }
-/* line 25, ../sass/partials/_header.scss */
+/* line 32, ../sass/partials/_header.scss */
 header .main-header .social-nav ul {
   text-align: right;
 }
-/* line 31, ../sass/partials/_header.scss */
-header .sub-header {
+/* line 37, ../sass/partials/_header.scss */
+header .main-header .sub-header {
   background-color: #F2F2F2;
   padding: 45px 0px 60px 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 150px;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
 }
-/* line 35, ../sass/partials/_header.scss */
-header .sub-header .navbar-sections {
+/* line 48, ../sass/partials/_header.scss */
+header .main-header .sub-header .navbar-sections {
   padding-left: 75px;
   margin-right: 57px;
 }
-/* line 39, ../sass/partials/_header.scss */
-header .sub-header .navbar-sections:after {
+/* line 52, ../sass/partials/_header.scss */
+header .main-header .sub-header .navbar-sections:after {
   content: "";
   width: 3px;
   height: 175px;
@@ -83,23 +131,132 @@ header .sub-header .navbar-sections:after {
   top: 0;
   right: -25px;
 }
-/* line 49, ../sass/partials/_header.scss */
-header .sub-header .navbar-sections:last-of-type {
+/* line 62, ../sass/partials/_header.scss */
+header .main-header .sub-header .navbar-sections:last-of-type {
   border-right: none;
 }
-/* line 52, ../sass/partials/_header.scss */
-header .sub-header .navbar-sections:last-of-type:after {
+/* line 65, ../sass/partials/_header.scss */
+header .main-header .sub-header .navbar-sections:last-of-type:after {
   display: none;
 }
-/* line 57, ../sass/partials/_header.scss */
-header .sub-header .navbar-sections .navbar-title {
+/* line 70, ../sass/partials/_header.scss */
+header .main-header .sub-header .navbar-sections .navbar-title {
   margin-bottom: 20px;
 }
-/* line 61, ../sass/partials/_header.scss */
-header .sub-header .navbar-sections li {
+/* line 74, ../sass/partials/_header.scss */
+header .main-header .sub-header .navbar-sections li {
   font-family: "Roboto Mono";
   font-weight: 300;
   margin: 10px 0;
+}
+
+/* line 1, ../sass/partials/_home-media.scss */
+.home-media {
+  position: relative;
+  text-align: center;
+  margin: 50px 0;
+}
+/* line 6, ../sass/partials/_home-media.scss */
+.home-media .media-bg {
+  max-width: 95%;
+}
+/* line 10, ../sass/partials/_home-media.scss */
+.home-media .media-content {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 130px);
+  left: 0;
+}
+/* line 16, ../sass/partials/_home-media.scss */
+.home-media .media-content .title {
+  font-size: 120px;
+  font-weight: 500;
+  letter-spacing: -5px;
+}
+/* line 22, ../sass/partials/_home-media.scss */
+.home-media .media-content .description {
+  font-size: 18px;
+  padding: 0 120px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 1, ../sass/partials/_overlay-images.scss */
+.overlay-images {
+  position: relative;
+  margin: 75px 0;
+}
+/* line 5, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-bg img {
+  max-width: 100%;
+}
+/* line 9, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-content {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 130px);
+  text-align: center;
+}
+/* line 15, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-content .title {
+  font-size: 69px;
+  font-weight: 500;
+}
+/* line 20, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-content .description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+/* line 27, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-content.quote {
+  top: calc(50% - 200px);
+}
+/* line 30, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-content.quote .feature {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* line 36, ../sass/partials/_overlay-images.scss */
+.overlay-images .overlay-content.quote .author {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 25px 0;
+}
+
+/* line 3, ../sass/pages/_home.scss */
+.page-home .home-media:first-of-type {
+  margin: 0;
+}
+/* line 7, ../sass/pages/_home.scss */
+.page-home .home-products {
+  margin-top: 200px;
+  margin-bottom: 400px;
+  text-align: center;
+}
+/* line 12, ../sass/pages/_home.scss */
+.page-home .home-products li {
+  display: inline-block;
+  width: 33%;
+  padding: 0 20px;
+}
+/* line 17, ../sass/pages/_home.scss */
+.page-home .home-products li img {
+  max-width: 100%;
+}
+/* line 21, ../sass/pages/_home.scss */
+.page-home .home-products li .title {
+  font-size: 32px;
+  font-weight: 500;
+}
+/* line 26, ../sass/pages/_home.scss */
+.page-home .home-products li .description {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 35px;
+  line-height: 25px;
 }
 
 /*!

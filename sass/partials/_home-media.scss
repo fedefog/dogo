@@ -1,0 +1,31 @@
+.home-media {
+	position: relative;
+	text-align:center;
+	margin: 50px 0;
+
+	.media-bg {
+		max-width: 95%;
+	}
+
+	.media-content {
+		position: absolute;
+		width: 100%;
+		top: calc(50% - 130px);
+		left: 0;
+
+		.title {
+			font-size: 120px;
+			font-weight: $medium;
+			letter-spacing: -5px;
+		}
+
+		.description {
+			font-size: 18px;
+			padding: 0 120px;
+			line-height: 30px;
+			margin-bottom: 20px;
+		}
+
+	}
+
+}
