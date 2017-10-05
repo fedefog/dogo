@@ -1,0 +1,25 @@
+// Colors 
+$black: #000000;
+$white: #ffffff;
+$dark-gray: #808080;
+$light-gray: #f2f2f2;
+
+// Font weights
+$light: 300;
+$regular: 400;
+$medium: 500;
+
+// Base Font
+$base-font-family: Helvetica,sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 14px;
+$base-line-height: 1.1;
+
+// Fixed Font
+$fixed-font-family: "Montserrat";
+$fixed-font-size: 18px;
+$fixed-line-height: $base-line-height;
+
+// Second Font
+$second-font-family: "Roboto Mono";
+$second-font-weight: $light;

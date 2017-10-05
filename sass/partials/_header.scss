@@ -1,0 +1,68 @@
+header {
+	font-size: 16px;
+
+	.main-header{
+	height: 150px;
+	padding: 20px 50px;
+
+		li {
+			display: inline-block;
+			a {
+				padding: 0 10px;
+			}
+		}
+
+		.main-nav {
+			padding-top: 50px;
+		}
+
+		.dogood-logo {
+			text-align: center;
+		}
+
+		.social-nav {
+			padding-top: 50px;
+			ul {
+				text-align: right;
+			}
+		}
+	}
+
+	.sub-header {
+		background-color: #F2F2F2;
+		padding: 45px 0px 60px 0;
+
+		.navbar-sections {
+			padding-left: 75px;
+			margin-right: 57px;
+
+			&:after{
+				content: "";
+				width: 3px;
+				height: 175px;
+				background-color: #ffffff;
+				position: absolute;
+				top: 0;
+				right: -25px;
+			}
+
+			&:last-of-type{
+				border-right: none;
+
+				&:after{
+					display: none;
+				}
+			}
+
+			.navbar-title {
+				margin-bottom: 20px;
+			}
+
+			li {
+				font-family: $second-font-family;
+				font-weight: $second-font-weight;
+				margin: 10px 0;
+			}
+		}
+	}
+}
