@@ -48,7 +48,7 @@
         </div><!--row-->
         <div class="row">
             <div class="footer-map col-md-12">
-                <p>Mapa del sitio</p>
+                <a href="#">Mapa del sitio</a>
             </div><!--col-md-12-->
         </div><!--row-->
     </div><!--container-->
