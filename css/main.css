@@ -50,20 +50,77 @@ footer {
   text-align: center;
 }
 /* line 7, ../sass/partials/_footer.scss */
+footer a {
+  color: #ffffff;
+}
+/* line 13, ../sass/partials/_footer.scss */
+footer .subscription .title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+/* line 18, ../sass/partials/_footer.scss */
+footer .subscription .input-group {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 22, ../sass/partials/_footer.scss */
+footer .subscription .input-group input[type="text"] {
+  text-align: center;
+  background-color: #000000;
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+/* line 32, ../sass/partials/_footer.scss */
+footer .subscription .input-group input[type="submit"] {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 6px 15px;
+  margin: 20px;
+}
+/* line 45, ../sass/partials/_footer.scss */
+footer .subscription .social-nav {
+  margin: 20px 0;
+}
+/* line 48, ../sass/partials/_footer.scss */
+footer .subscription .social-nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 10px;
+}
+/* line 57, ../sass/partials/_footer.scss */
 footer .footer-links {
   text-align: left;
   padding: 0;
 }
-/* line 11, ../sass/partials/_footer.scss */
-footer .footer-links li {
-  padding: 5px 0;
+/* line 61, ../sass/partials/_footer.scss */
+footer .footer-links .title {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
-/* line 14, ../sass/partials/_footer.scss */
+/* line 66, ../sass/partials/_footer.scss */
+footer .footer-links li {
+  padding: 3px 0;
+}
+/* line 69, ../sass/partials/_footer.scss */
 footer .footer-links li a {
-  color: #ffffff;
   font-family: "Roboto Mono";
   font-size: 12px;
   font-weight: 300;
+}
+/* line 79, ../sass/partials/_footer.scss */
+footer .footer-map {
+  font-family: "Roboto Mono";
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 /* line 1, ../sass/partials/_header.scss */

@@ -1,18 +1,72 @@
-footer{
+footer {
 	background-color: $black;
 	color: $white;
 	padding: 60px 0 10px 0;
 	text-align: center;
 
-	.footer-links{
+	a{
+		color: $white;
+	}
+
+	.subscription {
+
+		.title {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		.input-group {
+			width: 80%;
+			margin: 0 auto;
+
+			input[type="text"] {
+				text-align: center;
+				background-color: #000000;
+				border: none;
+				font-size: 16px;
+				font-weight: $light;
+				border-bottom: 1px solid #ffffff;
+				margin-bottom: 20px;
+			}
+
+			input[type="submit"] {
+				background-color: $white;
+				border: none;
+				color: $black;
+				text-transform: uppercase;
+				font-size: 16px;
+				font-weight: $light;
+				padding: 6px 15px;
+				margin: 20px;
+			}
+
+		}
+
+		.social-nav {
+			margin: 20px 0;
+
+			li {
+				display: inline-block;
+				font-size: 20px;
+				margin: 0 10px;
+			}
+		}
+
+	}
+
+	.footer-links {
 		text-align: left;
 		padding: 0;
 
-		li{
-			padding: 5px 0;
+		.title {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
 
-			a{
-				color: $white;
+		li {
+			padding: 3px 0;
+
+			a {
 				font-family: $second-font-family;
 				font-size: 12px;
 				font-weight: $light;
@@ -20,6 +74,14 @@ footer{
 
 		}
 
+	}
+
+	.footer-map{
+		font-family: $second-font-family;
+		font-size: 13px;
+		font-weight: $light;
+		margin-top: 60px;
+		margin-bottom: 10px;
 	}
 
 }

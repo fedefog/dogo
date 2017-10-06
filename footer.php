@@ -2,16 +2,23 @@
     <div class="container">
         <div class="row">
             <div class="subscription col-md-6">
-                <span>Suscribite para recibir nuestro newsletter</span>
+                <p class="title">Suscribite para recibir nuestro newsletter</p>
                 <div class="input-group">
                     <form method="get" action="">
                         <input type="text" name="q" class="form-control" placeholder="Ingresá tu e-mail">
+                        <input type="submit" value="Enviar">
                     </form>
                 </div>
-                <a href="#"><span>Enviar</span></a>
-                <span>Redes</span>
+                <div class="social-nav">
+                <ul>
+                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
             </div><!--col-md-6-->
-            <div class=" footer-links col-md-6">
+            <div class="footer-links col-md-6">
                 <div class="col-md-4 footer-link-list">
                     <p class="title">Nosotros</p>
                     <ul>
