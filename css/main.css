@@ -42,6 +42,17 @@ ul {
   text-transform: uppercase;
 }
 
+/* line 10, ../sass/modules/_buttons.scss */
+.btn-gray {
+  width: 100%;
+  background-color: #f2f2f2;
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  padding: 20px 0;
+  margin: 12px 0;
+}
+
 /* line 1, ../sass/partials/_footer.scss */
 footer {
   background-color: #000000;
@@ -302,25 +313,32 @@ header .main-header .sub-header .navbar-sections li {
 }
 
 /* line 3, ../sass/partials/_product-list.scss */
+.product-list .list-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 10, ../sass/partials/_product-list.scss */
 .product-list .product {
   text-align: center;
   margin-bottom: 45px;
 }
-/* line 7, ../sass/partials/_product-list.scss */
+/* line 14, ../sass/partials/_product-list.scss */
 .product-list .product img {
   width: 100%;
 }
-/* line 10, ../sass/partials/_product-list.scss */
+/* line 17, ../sass/partials/_product-list.scss */
 .product-list .product .title {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 15, ../sass/partials/_product-list.scss */
+/* line 22, ../sass/partials/_product-list.scss */
 .product-list .product .title span {
   font-weight: 300;
 }
-/* line 21, ../sass/partials/_product-list.scss */
+/* line 28, ../sass/partials/_product-list.scss */
 .product-list .product .description {
   font-family: "Roboto Mono";
   font-size: 13px;
@@ -363,6 +381,102 @@ header .main-header .sub-header .navbar-sections li {
 /* line 3, ../sass/pages/_products.scss */
 .page-products .product-list {
   margin-bottom: 300px;
+}
+
+/* line 4, ../sass/pages/_single-product.scss */
+.page-single-product .product-description {
+  margin-bottom: 100px;
+}
+/* line 7, ../sass/pages/_single-product.scss */
+.page-single-product .product-description img {
+  width: 100%;
+}
+/* line 11, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .img-number {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
+}
+/* line 17, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content {
+  position: relative;
+  height: 805px;
+}
+/* line 21, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-name {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 26, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-name span {
+  font-weight: 300;
+}
+/* line 30, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-name .fa {
+  font-size: 23px;
+  vertical-align: top;
+  padding-top: 3px;
+  margin-left: 20px;
+}
+/* line 39, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .description {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-right: 150px;
+}
+/* line 49, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-options .option {
+  font-size: 14px;
+  font-weight: 500;
+}
+/* line 53, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-options .option span {
+  font-weight: 300;
+}
+/* line 61, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-bottom {
+  position: absolute;
+  bottom: 0;
+}
+/* line 65, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-bottom ul {
+  width: 100%;
+}
+/* line 68, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-bottom ul li {
+  display: inline-block;
+  width: 24%;
+  opacity: 0.4;
+  padding-right: 10px;
+}
+/* line 74, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-bottom ul li.selected {
+  opacity: 1;
+}
+/* line 81, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-bottom .envio, .page-single-product .product-description .content .product-bottom .plazo {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 5px 0;
+  margin-top: 22px;
+}
+/* line 88, ../sass/pages/_single-product.scss */
+.page-single-product .product-description .content .product-bottom .plazo {
+  color: #808080;
+  margin-top: 5px;
+}
+
+/* line 5, ../sass/pages/_feeling-good.scss */
+.page-feeling-good .page-intro .title {
+  font-size: 95px;
+  font-weight: bold;
+}
+/* line 12, ../sass/pages/_feeling-good.scss */
+.page-feeling-good footer {
+  margin-top: 400px;
 }
 
 /*!

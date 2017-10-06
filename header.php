@@ -17,10 +17,10 @@
             <div class="header-nav main-nav col-md-4">
                 <nav>
                     <ul>
-                        <li><a href="#">Mujer</a></li>
-                        <li><a href="#">Hombre</a></li>
+                        <li><a href="products-mujer.php">Mujer</a></li>
+                        <li><a href="products-hombre.php">Hombre</a></li>
                         <li><a href="#">Kits</a></li>
-                        <li><a href="#">Feeling Good</a></li>
+                        <li><a href="feeling-good.php">Feeling Good</a></li>
                     </ul>
                 </nav>
             </div>
