@@ -9,7 +9,23 @@
 
 	.product{
 		text-align: center;
-		margin-bottom: 45px;
+		margin-bottom: 30px;
+		padding: 10px;
+		position: relative;
+		border: 1px solid transparent;
+
+		&.selected{
+			border: 1px solid $black;
+			transition: all 1s;
+
+			.lnk-carrito, .like, .arrows, .btn-colors{
+				opacity: 1;
+				visibility: visible;
+			}
+			.lnk-carrito{
+				opacity: 0.9;
+			}
+		}
 
 		img{
 			width: 100%;
@@ -25,10 +41,92 @@
 
 		}
 
+		.arrows{
+			visibility: hidden;
+			opacity: 0;
+
+			&.right-arrow{
+				position: absolute;
+				width: 35px;
+				height: 35px;
+				top: 33%;
+				left: 20px;
+				cursor: pointer;
+
+				.arrow-1{
+					position: absolute;
+					width: 25px;
+					height: 2px;
+					background-color: $black;
+					top: calc(50% - 3px);
+					left: 0;
+				}
+
+				.arrow-2{
+					@extend .arrow-1;
+					width: 15px;
+					top: 10px;
+					left: -4px;
+					transform: rotate(-45deg);
+				}
+
+				.arrow-3{
+					@extend .arrow-1;
+					width: 15px;
+					top: 20px;
+					left: -4px;
+					transform: rotate(45deg);
+				}
+
+			}
+
+			&.left-arrow{
+				@extend .right-arrow;
+				transform: rotate(180deg);
+				right: 20px;
+				left: initial;
+			}
+
+		}
+
 		.description{
 			font-family: $second-font-family;
 			font-size: 13px;
 			font-weight: $light;
+		}
+
+		.btn-colors{
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		.lnk-carrito{
+			position: absolute;
+			width: 100%;
+			left: 0;
+			height: 40px;
+			padding-top: 12px;
+			background: #ffffff;
+			bottom: 100px;
+			opacity: 0;
+			visibility: hidden;
+
+			a{
+				color: $dark-gray;
+				font-size: 10px;
+				font-weight: $light;
+			}
+
+		}
+
+		.like{
+			position: absolute;
+			top: 20px;
+			font-size: 20px;
+			right: 20px;
+			opacity: 0;
+			visibility: hidden;
+			cursor: pointer;
 		}
 
 	}

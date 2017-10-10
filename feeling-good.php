@@ -12,6 +12,7 @@
     </div><!-- container -->
 </section>
 
+
 <section class="overlay-images">
     <div class="overlay-bg">
         <div class="container">
@@ -29,7 +30,7 @@
                     <p class="feature">Feature</p>
                     <h2 class="title">"I have worked hard, and I've succeeded."</h2>
                     <p class="author">– Souleymane Cissokho</p>
-                    <button class="btn-black">Shop </button>
+                    <a href="single-blog.php" class="btn-black">Shop </a>
                 </div>
             </div><!--row-->
         </div><!--container-->
@@ -53,7 +54,7 @@
                     <p class="feature">Feature</p>
                     <h2 class="title">"I have worked hard, and I've succeeded."</h2>
                     <p class="author">– Souleymane Cissokho</p>
-                    <button class="btn-black">Shop </button>
+                    <a href="single-blog.php" class="btn-black">Shop </a>
                 </div>
             </div><!--row-->
         </div><!--container-->
@@ -77,7 +78,7 @@
                     <p class="feature">Feature</p>
                     <h2 class="title">"I have worked hard, and I've succeeded."</h2>
                     <p class="author">– Souleymane Cissokho</p>
-                    <button class="btn-black">Shop </button>
+                    <a href="single-blog.php" class="btn-black">Shop </a>
                 </div>
             </div><!--row-->
         </div><!--container-->

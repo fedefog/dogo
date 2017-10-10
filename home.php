@@ -9,7 +9,7 @@
                 <div class="col-md-6">
                     <h1 class="title">Euforia</h1>
                     <p class="description">Optimismo y bienestar en movimiento. Prendas diseñadas para un alto rendimiento.</p>
-                    <button class="btn-black">Shop</button>
+                    <a href="" class="btn-black">Shop</a>
                 </div><!--col-->
             </div><!--row-->
         </div><!--container-->
@@ -24,7 +24,7 @@
                 <div class="col-md-6 right">
                     <h1 class="title">Confianza</h1>
                     <p class="description">Movimientos definidos y seguros</p>
-                    <button class="btn-black">Shop</button>
+                    <a href="" class="btn-black">Shop</a>
                 </div><!--col-->
             </div><!--row-->
         </div><!--container-->
@@ -48,7 +48,7 @@
                 <div class="col-md-5 right">
                     <h2 class="title"> Starting Kit</h2>
                     <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <button class="btn-black">Shop </button>
+                    <a href="" class="btn-black">Shop </a>
                 </div>
             </div><!--row-->
         </div><!--container-->
@@ -63,7 +63,7 @@
                 <div class="col-md-6 right">
                     <h1 class="title">Gratitud</h1>
                     <p class="description">Movimientos de conexión profunda con el propio ser.</p>
-                    <button class="btn-black">Shop</button>
+                    <a href="" class="btn-black">Shop</a>
                 </div><!--col-->
             </div><!--row-->
         </div><!--container-->
@@ -87,7 +87,7 @@
                     <p class="feature">Feature</p>
                     <h2 class="title">"I have worked hard, and I've succeeded."</h2>
                     <p class="author">– Souleymane Cissokho</p>
-                    <button class="btn-black">Shop </button>
+                    <a href="" class="btn-black">Shop </a>
                 </div>
             </div><!--row-->
         </div><!--container-->
@@ -103,19 +103,19 @@
                         <img src="img/home-product1.jpg">
                         <h3 class="title">Do.good Backpack</h3>
                         <p class="description">Mochila de Tyvek. Una buena compañera de ejercicios.</p>
-                        <button class="btn-black">Shop accesorios</button>
+                        <a href="" class="btn-black">Shop accesorios</a>
                     </li>
                     <li>
                         <img src="img/home-product2.jpg">
                         <h3 class="title">Everywhere Bottle</h3>
                         <p class="description">Para hidratarte cuando lo necesitas y donde quieras.</p>
-                        <button class="btn-black">Shop accesorios</button>
+                        <a href="" class="btn-black">Shop accesorios</a>
                     </li>
                     <li>
                         <img src="img/home-product1.jpg">
                         <h3 class="title">Do.good Backpack</h3>
                         <p class="description">Mochila de Tyvek. Una buena compañera de ejercicios.</p>
-                        <button class="btn-black">Shop accesorios</button>
+                        <a href="" class="btn-black">Shop accesorios</a>
                     </li>
                 </ul>
             </div><!--col-->

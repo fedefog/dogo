@@ -1,6 +1,10 @@
 header {
 	font-size: 16px;
 
+	a:hover{
+		text-decoration: underline;
+	}
+
 	.main-header{
 		height: 150px;
 		padding: 20px 50px;
@@ -11,6 +15,11 @@ header {
 				display: inline-block;
 				a {
 					padding: 0 10px;
+
+					&.active{
+						color: #999999;
+						text-decoration: underline;
+					}
 				}
 			}
 		}
@@ -44,6 +53,29 @@ header {
 			z-index: 1;
 			visibility: hidden;
 			opacity: 0;
+			transition: all 0.5s;
+
+			&#nav-mujer:before{
+				content: "";
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				top: -20px;
+				left: 103px;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-bottom: 13px solid #F2F2F2;
+			}
+
+			&#nav-hombre:before{
+				@extend #nav-mujer:before;
+				left: 180px;
+			}
+
+			&#nav-kits:before{
+				@extend #nav-mujer:before;
+				left: 255px;
+			}
 
 			.navbar-sections {
 				padding-left: 75px;

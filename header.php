@@ -17,15 +17,15 @@
             <div class="header-nav main-nav col-md-4">
                 <nav>
                     <ul>
-                        <li><a href="products-mujer.php">Mujer</a></li>
-                        <li><a href="products-hombre.php">Hombre</a></li>
-                        <li><a href="#">Kits</a></li>
-                        <li><a href="feeling-good.php">Feeling Good</a></li>
+                        <li><a class="dropdown" id="mujer" href="products-mujer.php">Mujer</a></li>
+                        <li><a class="dropdown" id="hombre" href="products-hombre.php">Hombre</a></li>
+                        <li><a class="dropdown" id="kits" href="kits.php">Kits</a></li>
+                        <li><a class="dropdown" id="feeling-good" href="feeling-good.php">Feeling Good</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="dogood-logo col-md-4">
-              <img src="img/logo.png" alt="dogood-logo">
+              <a href="home.php"><img src="img/logo.png" alt="dogood-logo"></a>
             </div>
             <div class="header-nav social-nav col-md-4">
                 <ul>
@@ -37,7 +37,7 @@
                 </ul>
             </div>
         </div><!--col-->
-        <div class="sub-header">
+        <div id="nav-mujer" class="sub-header">
             <div class="navbar-dropdown">
                 <div class="dropdown-content">
                     <div class="col-md-2 navbar-sections">
@@ -66,8 +66,80 @@
                             <li><a href="#">Pantalones</a></li>
                         </ul>
                     </div>
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Pantalones y calzas</p>
+                        <ul>
+                            <li><a href="#">Leggins</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Pantalones</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div><!--col-->
+        </div><!--sub-header-->
+        <div id="nav-hombre" class="sub-header">
+            <div class="navbar-dropdown">
+                <div class="dropdown-content">
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Destacados Hombre</p>
+                        <ul>
+                            <li><a href="#">New In</a></li>
+                            <li><a href="#">Kits</a></li>
+                            <li><a href="#">Must Have</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Remeras</p>
+                        <ul>
+                            <li><a href="#">Ver todo</a></li>
+                            <li><a href="#">Tops Deportivos</a></li>
+                            <li><a href="#">Remeras</a></li>
+                            <li><a href="#">Musculosas</a></li>
+                            <li><a href="#">Buzos y Camperas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Pantalones y calzas</p>
+                        <ul>
+                            <li><a href="#">Leggins</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Pantalones</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!--sub-header-->
+        <div id="nav-kits" class="sub-header">
+            <div class="navbar-dropdown">
+                <div class="dropdown-content">
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Destacados Kits</p>
+                        <ul>
+                            <li><a href="#">New In</a></li>
+                            <li><a href="#">Kits</a></li>
+                            <li><a href="#">Must Have</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Remeras</p>
+                        <ul>
+                            <li><a href="#">Ver todo</a></li>
+                            <li><a href="#">Tops Deportivos</a></li>
+                            <li><a href="#">Remeras</a></li>
+                            <li><a href="#">Musculosas</a></li>
+                            <li><a href="#">Buzos y Camperas</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 navbar-sections">
+                        <p class="navbar-title">Pantalones y calzas</p>
+                        <ul>
+                            <li><a href="#">Leggins</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Pantalones</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!--sub-header-->
     </div><!--row-->
 </header>
