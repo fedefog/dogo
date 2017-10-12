@@ -18,17 +18,17 @@
             <div class="col-md-6">
                 <img src="img/single-product2.jpg">
                 <p class="img-number">1 - 4</p>
-                <div class="col-md-4 kit-parts">
+                <div class="col-xs-4 col-md-4 kit-parts">
                    <img src="img/kit-part1.jpg">
                    <h4 class="subtitle">Nombre Top</h4>
                </div>
 
-               <div class="col-md-4 kit-parts">
+               <div class="col-xs-4 col-md-4 kit-parts">
                    <img src="img/kit-part2.jpg">
                    <h4 class="subtitle">Nombre Legging</h4>
                </div>
 
-               <div class="col-md-4 kit-parts">
+               <div class="col-xs-4 col-md-4 kit-parts">
                    <img src="img/kit-part3.jpg">
                    <h4 class="subtitle">Mochila</h4>
                </div>
@@ -39,17 +39,21 @@
 
                 <div class="product-options">
                     <p class="option">Talle Top: <span>Falta seleccionar</span></p>
-                    <a class="btn-sizes">XS</a>
-                    <a class="btn-sizes">S</a>
-                    <a class="btn-sizes">M</a>
-                    <a class="btn-sizes">L</a>
+                    <div class="talles" id="talle1">
+                     <a class="btn-sizes">XS</a>
+                      <a class="btn-sizes">S</a>
+                      <a class="btn-sizes">M</a>
+                      <a class="btn-sizes">L</a>
+                    </div>
                     <a href="#" class="tabla-talles">Tabla de talles</a>
 
                     <p class="option">Talle Pantalón: <span>Falta seleccionar</span></p>
-                    <a class="btn-sizes">XS</a>
-                    <a class="btn-sizes">S</a>
-                    <a class="btn-sizes">M</a>
-                    <a class="btn-sizes">L</a>
+                    <div class="talles" id="talle2">
+                     <a class="btn-sizes">XS</a>
+                      <a class="btn-sizes">S</a>
+                      <a class="btn-sizes">M</a>
+                      <a class="btn-sizes">L</a>
+                    </div>
                     <a href="#" class="tabla-talles">Tabla de talles</a>
                     
                     <div class="cantidad">
@@ -77,7 +81,7 @@
 <section class="kits">
     <div class="container">
         <div class="row">
-<div class="col-md-6 col-xs-12 kit">
+<div class="col-sm-6 col-xs-12 kit">
            <a href="single-kit.php">
                <h3 class="title">Kit Mujer</h3>
                <img src="img/kit-combo.jpg" class="main-img">
@@ -114,7 +118,7 @@
                </div>
            </div>
 
-           <div class="col-md-6 col-xs-12 kit">
+           <div class="col-sm-6 col-xs-12 kit">
            <a href="single-kit.php">
                <h3 class="title">Kit Hombre</h3>
                <img src="img/kit-combo.jpg" class="main-img">
@@ -161,7 +165,7 @@
                 <h3>Te podría interesar</h3>
             </div>
                         <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -188,7 +192,7 @@
             </div>
             </a>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -215,7 +219,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -242,7 +246,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>

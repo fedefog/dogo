@@ -64,7 +64,7 @@
                 <h3>Te podría interesar</h3>
             </div>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -91,7 +91,7 @@
             </div>
             </a>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -118,7 +118,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -145,7 +145,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>

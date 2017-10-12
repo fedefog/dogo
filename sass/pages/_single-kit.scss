@@ -1,7 +1,21 @@
 .page-single-kit{
 
+	.product-description .content {
+		height: 870px;
+
+		@include respond-to('medium') {
+			height: 670px;
+		}
+
+		@include respond-to('large') {
+			height: 805px;
+		}
+		
+	}
+
 	.product-list{
 		margin: 50px 0 200px 0;
 	}
+
 
 }

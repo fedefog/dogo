@@ -20,6 +20,17 @@
                 <p class="img-number">1 - 4</p>
             </div>
             <div class="col-md-6 content">
+            <div class="product-bottom">
+                    <ul>
+                        <li class="selected"><img src="img/single-product1.jpg"></li>
+                        <li><img src="img/single-product1.jpg"></li>
+                        <li><img src="img/single-product1.jpg"></li>
+                        <li><img src="img/single-product1.jpg"></li>
+                    </ul>
+                    <a href="#" class="btn-gray">Agregar al carrito</a>
+                    <p class="envio">Envío gratis a partir de $899 </p>
+                    <p class="plazo">Plazo de 4 a 7 días hábiles (ciudades principales).</p>
+                </div>
                 <h3 class="product-name">Nombre Producto <span>- $XXX</span><span class="like"><i class="fa fa-heart-o" aria-hidden="true"></i><i class="fa fa-heart hidden" aria-hidden="true"></i></span></h3>
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
@@ -29,11 +40,12 @@
                     <a class="btn-colors gray"></a>
 
                     <p class="option">Size: <span>Falta seleccionar</span></p>
-                    <a class="btn-sizes">XS</a>
-                    <a class="btn-sizes selected">S</a>
-                    <a class="btn-sizes">M</a>
-                    <a class="btn-sizes">L</a>
-                    <a class="tabla-talles">Tabla de talles</a>
+                    <div class="talles" id="talle1">
+                     <a class="btn-sizes">XS</a>
+                      <a class="btn-sizes">S</a>
+                      <a class="btn-sizes">M</a>
+                      <a class="btn-sizes">L</a>
+                    </div>
                     
                     <div class="cantidad">
                         <p class="option">Cantidad:</p>
@@ -45,18 +57,6 @@
                         </select>
                     </div>
 
-                </div>
-
-                <div class="product-bottom">
-                    <ul>
-                        <li class="selected"><img src="img/single-product1.jpg"></li>
-                        <li><img src="img/single-product1.jpg"></li>
-                        <li><img src="img/single-product1.jpg"></li>
-                        <li><img src="img/single-product1.jpg"></li>
-                    </ul>
-                    <a href="#" class="btn-gray">Agregar al carrito</a>
-                    <p class="envio">Envío gratis a partir de $899 </p>
-                    <p class="plazo">Plazo de 4 a 7 días hábiles (ciudades principales).</p>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
                 <h3>Completa el look</h3>
             </div>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -97,7 +97,7 @@
             </div>
             </a>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -124,7 +124,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -151,7 +151,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -188,7 +188,7 @@
                 <h3>Te podría interesar</h3>
             </div>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -215,7 +215,7 @@
             </div>
             </a>
             <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -242,7 +242,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>
@@ -269,7 +269,7 @@
             </div>
             </a>
              <a href="single-product.php">
-            <div class="col-md-3  col-xs-6 product">
+            <div class="col-sm-3  col-xs-6 product">
                 <img src="img/product1.jpg">
                 <h3 class="title">Nombre Producto - <span>$XX</span></h3>
                 <p class="description">Leve descripción</p>

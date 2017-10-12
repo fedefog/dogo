@@ -2,28 +2,70 @@
 	position: relative;
 	text-align:center;
 	margin: 50px 0;
+	overflow: hidden;
+
+	.right{
+		float: none !important;
+		@include respond-to('medium') {
+			float: right !important;
+		}
+	}
 
 	.media-bg {
-		max-width: 95%;
+		opacity: 0.8;
+
+		@include respond-to('xsmall') {
+			width: auto;
+			height: 400px;
+			position: relative;
+			left: 25%;
+			margin-left: -350px;
+		}
+
+		@include respond-to('small') {
+			max-width: 95%;
+		}
+
+		@include respond-to('medium') {
+			opacity: 1;
+		}
+
 	}
 
 	.media-content {
 		position: absolute;
 		width: 100%;
-		top: calc(50% - 130px);
+		top: calc(50% - 140px);
 		left: 0;
+
+		.confianza{
+
+			@include respond-to('large') {
+				width: 50% !important;
+			}
+
+		}
 
 		.title {
 			font-size: 120px;
 			font-weight: $medium;
 			letter-spacing: -5px;
+
+			@include respond-to('xsmall') {
+				font-size: 75px;
+			}
+
 		}
 
 		.description {
 			font-size: 18px;
-			padding: 0 120px;
 			line-height: 30px;
 			margin-bottom: 20px;
+
+			@include respond-to('small') {
+				padding: 0 120px;
+			}
+
 		}
 
 	}

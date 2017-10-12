@@ -11,8 +11,13 @@
 
 		li {
 			display: inline-block;
-			width: 33%;
 			padding: 0 20px;
+			margin: 40px 0;
+
+			@include respond-to('medium') {
+				width: 33%;
+				margin: 0;
+			}
 
 			img {
 				max-width: 100%;

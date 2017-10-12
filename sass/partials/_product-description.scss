@@ -15,6 +15,11 @@
 		text-align: center;
 		margin-top: 20px;
 		padding: 0;
+		margin-bottom: 30px;
+
+		@include respond-to('medium') {
+			margin-bottom: 30px;
+		}
 
 		img{
 			width: 100%;
@@ -63,12 +68,21 @@
 
 	.content{
 		position: relative;
-		height: 805px;
+		height: 830px;
+	
+		@include respond-to('medium') {
+			height: 670px;
+		}
+
+		@include respond-to('large') {
+			height: 805px;
+		}
 
 		.product-name{
 			font-size: 32px;
 			margin-top: 0;
 			margin-bottom: 20px;
+			clear: both;
 
 			span{
 				font-weight: $light;
@@ -88,7 +102,11 @@
 			font-size: 14px;
 			font-weight: $light;
 			line-height: 20px;
-			padding-right: 150px;
+
+			@include respond-to('large') {
+				padding-right: 150px;
+			}
+
 		}
 
 		.product-options{
@@ -102,6 +120,10 @@
 					font-weight: $light;
 				}
 
+			}
+
+			.talles{
+				display: inline-block;
 			}
 
 			.tabla-talles{
@@ -141,12 +163,12 @@
 		}
 
 		.product-bottom{
-			position: absolute;
 			bottom: 0;
 			width: 100%;
 
 			ul{
 				width: 100%;
+				margin: 30px 0 50px 0;
 
 				li{
 					display: inline-block;
@@ -159,6 +181,22 @@
 					}
 				}
 
+				@include respond-to('medium') {
+					margin: 0;
+				}
+
+			}
+
+			.btn-gray{
+				position: absolute;
+				bottom: 100px;
+				width: 93%;
+
+				@include respond-to('medium') {
+					position: initial;
+					width: 100%;
+				}
+
 			}
 
 			.envio{
@@ -166,12 +204,24 @@
 				font-weight: $light;
 				margin: 5px 0;
 				margin-top: 22px;
+				position: absolute;
+				bottom: 65px;
+
+				@include respond-to('medium') {
+					position: initial;
+				}
+
 			}
 
 			.plazo{
 				@extend .envio;
 				color: $dark-gray;
 				margin-top: 5px;
+				bottom: 40px;
+			}
+
+			@include respond-to('medium') {
+				position: absolute;
 			}
 
 		}

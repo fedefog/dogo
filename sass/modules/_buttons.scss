@@ -23,6 +23,13 @@
 	font-size: 21px;
 	padding: 20px 0;
 	margin: 12px 0;
+	transition: all 0.5s;
+
+	&:hover{
+		background-color: $black;
+		color: $light-gray;
+	}
+
 }
 .btn-colors{
 	width: 30px;

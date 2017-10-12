@@ -14,7 +14,7 @@
 <header>
     <div class="main-header">
         <div class="col-md-12">
-            <div class="header-nav main-nav col-md-4">
+            <div class="header-nav main-nav hidden-xs col-md-4">
                 <nav>
                     <ul>
                         <li><a class="dropdown" id="mujer" href="products-mujer.php">Mujer</a></li>
@@ -24,10 +24,34 @@
                     </ul>
                 </nav>
             </div>
-            <div class="dogood-logo col-md-4">
-              <a href="home.php"><img src="img/logo.png" alt="dogood-logo"></a>
+
+            <div class="dogood-logo col-md-4 col-xs-7">
+              <a href="home.php"><img src="img/logo.svg" alt="dogood-logo" width="330" height="101"></a>
             </div>
-            <div class="header-nav social-nav col-md-4">
+
+            <div class="mobile-nav visible-xs visible-sm col-xs-5">
+              <i class="fa fa-bars open-nav" aria-hidden="true"></i>
+            </div>
+
+            <div class="mobile-nav-content visible-xs visible-sm">
+                <i class="fa fa-times close-nav" aria-hidden="true"></i>
+              <ul class="main">
+                    <li><a href="products-mujer.php">Mujer</a></li>
+                    <li><a href="products-hombre.php">Hombre</a></li>
+                    <li><a href="kits.php">Kits</a></li>
+                    <li><a href="feeling-good.php">Feeling Good</a></li>
+                </ul>
+                <ul class="social">
+                    <li><a href="#">Log in</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+
+            <div class="header-nav social-nav hidden-xs col-md-4">
                 <ul>
                     <li><a href="#">Log in</a></li>
                     <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>

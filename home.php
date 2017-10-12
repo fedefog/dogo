@@ -21,7 +21,7 @@
     <div class="media-content">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 right">
+                <div class="col-md-8 confianza right">
                     <h1 class="title">Confianza</h1>
                     <p class="description">Movimientos definidos y seguros</p>
                     <a href="" class="btn-black">Shop</a>

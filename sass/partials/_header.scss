@@ -7,12 +7,19 @@ header {
 
 	.main-header{
 		height: 150px;
-		padding: 20px 50px;
+		padding: 20px 0;
 		position: relative;
+
+		@include respond-to('xlarge') {
+			padding: 20px 50px;
+		}
+
 
 		.header-nav {
 			li {
 				display: inline-block;
+				margin-bottom: 10px;
+
 				a {
 					padding: 0 10px;
 
@@ -20,27 +27,126 @@ header {
 						color: #999999;
 						text-decoration: underline;
 					}
+
 				}
+
 			}
+
 		}
 
 		.main-nav {
 			padding-top: 50px;
+			display: none;
+
+			@include respond-to('medium') {
+				display: block;
+			}
+
+		}
+
+		.mobile-nav{
+			text-align: right;
+			font-size: 51px;
+			padding: 25px 20px;
+
+			@include respond-to('xsmall') {
+				font-size: 35px;
+				padding: 34px 20px;
+			}
+
+		}
+
+		.mobile-nav-content{
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			background-color: #000000;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			visibility: hidden;
+			opacity: 0;
+			text-align: center;
+			transition: all 0.5s;
+
+			&.open{
+				visibility: visible;
+				opacity: 0.9;
+			}
+
+			a{
+				color: $white;
+			}
+
+			.close-nav{
+				color: #ffffff;
+				font-size: 40px;
+				position: absolute;
+				top: 50px;
+				right: 32px;
+				cursor: pointer;
+				transform: rotate(25deg);
+				transition: all 0.2s;
+
+				&.rotate{
+					transform: rotate(0deg);
+				}
+			}
+
+			.main{
+				margin-top: 100px;
+
+				li{
+					margin: 50px 0;
+
+					a{
+						font-size: 30px;
+					}
+
+				}
+
+			}
+
+			.social{
+				margin-top: 120px;
+
+				li{
+					display: inline-block;
+					padding: 0 10px;
+					
+					a{
+						font-size: 20px;
+					}
+				}
+
+			}
+
 		}
 
 		.dogood-logo {
-			text-align: center;
+
+			@include respond-to('medium') {
+				text-align: center;
+			}
 
 			img{
 				max-width: 100%;
 			}
+
 		}
 
 		.social-nav {
 			padding-top: 50px;
+			display: none;
+
+			@include respond-to('medium') {
+				display: block;
+			}
+
 			ul {
 				text-align: right;
 			}
+
 		}
 
 		.sub-header {
@@ -54,6 +160,11 @@ header {
 			visibility: hidden;
 			opacity: 0;
 			transition: all 0.5s;
+			padding-left: 30px;
+
+			@include respond-to('xlarge') {
+				padding-left: 0;
+			}
 
 			&#nav-mujer:before{
 				content: "";
@@ -61,25 +172,44 @@ header {
 				width: 20px;
 				height: 20px;
 				top: -20px;
-				left: 103px;
+				left: 52px;
 				border-left: 10px solid transparent;
 				border-right: 10px solid transparent;
 				border-bottom: 13px solid #F2F2F2;
+
+				@include respond-to('xlarge') {
+					left: 103px;
+				}
+
 			}
 
 			&#nav-hombre:before{
 				@extend #nav-mujer:before;
-				left: 180px;
+				left: 133px;
+
+				@include respond-to('xlarge') {
+					left: 180px;
+				}
+
 			}
 
 			&#nav-kits:before{
 				@extend #nav-mujer:before;
-				left: 255px;
+				left: 206px;
+
+				@include respond-to('xlarge') {
+					left: 255px;
+				}
+
 			}
 
 			.navbar-sections {
-				padding-left: 75px;
+				padding: 0;
 				margin-right: 57px;
+
+				@include respond-to('xlarge') {
+					padding-left: 3%;
+				}
 
 				&:after{
 					content: "";

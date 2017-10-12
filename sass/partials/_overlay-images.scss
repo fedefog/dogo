@@ -4,6 +4,12 @@
 
 	.overlay-bg img {
 		max-width: 100%;
+		opacity: 0.7;
+
+		@include respond-to('medium') {
+			opacity: 1;
+		}
+
 	}
 
 	.overlay-content {
@@ -15,6 +21,11 @@
 		.title {
 			font-size: 69px;
 			font-weight: $medium;
+
+			@include respond-to('xsmall') {
+				font-size: 50px;
+			}
+
 		}
 
 		.description {

@@ -22,6 +22,20 @@ $(document).ready(function() {
 		$(".sub-header").removeClass("show");
 	});
 
+// Nav mobile
+
+	$(".open-nav").click(function(){
+		$(".mobile-nav-content").addClass("open");
+		$(".open-nav").addClass("hidden");
+		$(".close-nav").addClass("rotate");
+	});
+
+	$(".close-nav").click(function(){
+		$(".mobile-nav-content").removeClass("open");
+		setTimeout(function(){$(".open-nav").removeClass("hidden");},100);
+		$(".close-nav").removeClass("rotate");
+	});
+
 
 // Products hover
 
@@ -48,15 +62,21 @@ $(document).ready(function() {
 
 // Color and size buttons
 
-	$(".btn-sizes").click(function(){
-		$(".btn-sizes").removeClass("selected")
+	//$(".btn-sizes").click(function(){
+	$("#talle1").on('click','.btn-sizes',function(){
+		$("#talle1 .btn-sizes").removeClass("selected")
 		$(this).addClass("selected");
-	})
+	});
+
+	$("#talle2").on('click','.btn-sizes',function(){
+		$("#talle2 .btn-sizes").removeClass("selected")
+		$(this).addClass("selected");
+	});
 
 	$(".btn-colors").click(function(){
 		$(".btn-colors").removeClass("selected")
 		$(this).addClass("selected");
-	})
+	});
 
 });
 
